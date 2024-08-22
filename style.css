@@ -1,8 +1,10 @@
 body {
-    background-color: lightgreen;
+    background-color: rgb(27, 45, 108);
     font-family:monospace;
-    color:rgb(142, 8, 199);
+    color:rgb(0, 255, 26);
     text-decoration-line: underline;
-    border: 7px yellow ridge;
+    border: 17px lime dashed;
+    
+
 
 }
