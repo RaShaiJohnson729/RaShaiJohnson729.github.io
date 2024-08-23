@@ -6,8 +6,6 @@ body {
     border: 17px lime dashed;
     font-family:verdana;
     
-    
-    
 }
 
 
@@ -67,3 +65,13 @@ main {
 h2, h3 {
     margin: 0px;
 }
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px lime(240, 240, 240), 0 0 20px rgb(136, 0, 255), 0 0 30px rgb(149, 0, 255), 0 0 40px #5900ff, 0 0 50px lime, 0 0 60px lime, 0 0 70px black;
+    }
+    to {
+      text-shadow: 0 0 20px lime(235, 229, 229), 0 0 30px yellow, 0 0 40px lime, 0 0 50px lime, 0 0 60px lime, 0 0 70px #460e57, 0 0 80px lime;
+      animation
+    }
+  }
